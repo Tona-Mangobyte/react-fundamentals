@@ -14,7 +14,7 @@ function Hello(props) {
 function App(props) {
     return(
         <div>
-            <Hello name={"Tona"}/>
+            <Hello name={"Tona Chheun"}/>
             <StatusBar />
         </div>
     );
