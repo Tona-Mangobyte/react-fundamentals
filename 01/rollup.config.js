@@ -7,9 +7,9 @@ import livereload from 'rollup-plugin-livereload';
 import postcss from 'rollup-plugin-postcss'
 
 export default {
-    input: 'src/index.js',
+    input: 'src/index.jsx',
     output: {
-        file: 'public/index.js',
+        file: 'public/index.jsx',
         format: 'es',
     },
     plugins: [
