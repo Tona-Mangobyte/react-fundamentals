@@ -1,15 +1,12 @@
 import React, {StrictMode} from 'react';
 import ReactDOM from 'react-dom/client';
-
-function Hello(props) {
-    return <h1>Hello { props.name }</h1>;
-}
+import Profile from "./components/Profile";
 
 
 function App(props) {
     return(
         <div>
-            <Hello name={"Tona Chheun"}/>
+            <Profile />
         </div>
     );
 }
